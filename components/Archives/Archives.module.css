@@ -1,0 +1,11 @@
+.blue {
+  color: #2c61a4;
+}
+
+.orange {
+  color: #f85e19;
+}
+.active {
+  color: #f85e19;
+  border-bottom: 4px solid #f85e19;
+}

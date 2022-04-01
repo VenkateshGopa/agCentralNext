@@ -1,0 +1,52 @@
+.search {
+  position: relative;
+  width: 100%;
+}
+.img {
+  width: 120px;
+}
+.search input {
+  width: 100%;
+  background-color: rgba(243, 243, 243, 0.685);
+  font-size: 12px;
+  border: 1px solid rgba(172, 172, 172, 0.986);
+}
+.searchicon {
+  position: absolute;
+  top: 30%;
+  right: 4%;
+}
+.icon {
+  color: #26558f;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.downicon {
+  font-size: 12px;
+}
+.bell {
+  position: relative;
+}
+.bellbadge {
+  background-color: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  font-size: 7px;
+  color: white;
+  position: absolute;
+  top: -20%;
+  right: -10%;
+}
+.navimg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.navimg:hover {
+  cursor: pointer;
+}
+.w-35 {
+  width: 35%;
+}

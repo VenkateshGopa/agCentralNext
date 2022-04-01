@@ -1,0 +1,12 @@
+.gradient {
+  background: rgb(119, 16, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(119, 16, 128, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-left: 10px solid #f85e19;
+  color: white;
+  padding: 7px 20px;
+  width: 60%;
+}

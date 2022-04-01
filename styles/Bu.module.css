@@ -1,0 +1,18 @@
+.bluegradient {
+  background: rgb(75, 128, 195);
+  background: linear-gradient(
+    180deg,
+    rgba(75, 128, 195, 1) 0%,
+    rgba(20, 61, 113, 1) 100%
+  );
+  color: white;
+}
+.bluegradient:hover {
+  background: rgb(20, 61, 113);
+  background: linear-gradient(
+    22deg,
+    rgba(20, 61, 113, 1) 27%,
+    rgba(75, 128, 195, 1) 94%
+  );
+  cursor: pointer;
+}

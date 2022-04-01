@@ -1,0 +1,12 @@
+.img {
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+.orange {
+  color: #f85e19;
+}
+.backgroundorange {
+  background-color: #f85e19;
+}

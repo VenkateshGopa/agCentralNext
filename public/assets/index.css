@@ -1,0 +1,440 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+  padding: 3rem 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+}
+/* // Style Bootstrap icons */
+.bi {
+  fill: currentColor;
+}
+
+img {
+  width: 120px;
+}
+
+.feed {
+  color: #26558f;
+}
+.feedbtn {
+  border: none;
+  background-color: white;
+  font-size: 12px;
+}
+.feedbtn img {
+  width: 20px;
+  height: 20px;
+}
+.feedimg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.feedinput {
+  border: none;
+  font-size: 12px;
+}
+.feedinput:focus {
+  outline: none;
+  border: none;
+  font-size: 12px;
+}
+.postcat {
+  font-size: 8px;
+}
+
+.dots {
+  transform: rotate(90deg);
+}
+.Postimg {
+  width: 100%;
+}
+.blueheading {
+  color: #2c61a4;
+  font-size: 15px;
+}
+.Announcementsimg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1500px) {
+  .Announcementsimg {
+    height: 120px;
+  }
+}
+.medfont {
+  font-size: 12px;
+}
+.backash {
+  background-color: #fafafa;
+}
+.backash-1 {
+  background-color: #f7f7f7;
+}
+.backbrown {
+  background-color: #726c6c;
+}
+.upcommingeventsbag {
+  background-color: #524b4b;
+}
+.up-title {
+  color: rgb(108, 159, 253);
+  font-size: 13px;
+}
+.up-date {
+  font-size: 11px;
+}
+.up-btn {
+  background-color: rgb(255, 123, 0);
+  font-size: 10px;
+}
+.types {
+  font-size: 13px;
+}
+.types:hover {
+  cursor: pointer;
+  color: #2c61a4;
+  border-bottom: 5px solid #ff8b17;
+}
+.borderbottom {
+  border-bottom: 3px solid rgb(255, 123, 0);
+}
+.cardname {
+  font-size: 12px;
+  color: rgb(137, 137, 255);
+}
+.carddes {
+  font-size: 10px;
+}
+.avathar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+}
+.nav {
+  background-color: #26558f;
+}
+.navitem {
+  color: white;
+  font-size: 12px;
+}
+.navbtn {
+  color: #841918;
+  font-size: 12px;
+}
+.check {
+  font-size: 10px;
+}
+.in {
+  font-size: 14px;
+}
+.navcheckinbtn {
+  width: 50px;
+  height: 50px;
+  background: rgb(149, 46, 159);
+  background: linear-gradient(
+    225deg,
+    rgba(149, 46, 159, 1) 0%,
+    rgba(242, 95, 68, 1) 100%
+  );
+  /* background: rgb(240,101,24);
+  background: linear-gradient(25deg, rgba(240,101,24,1) 0%, rgba(216,45,188,1) 90%); */
+  border: 1px solid white;
+}
+
+.navcheckinbtn:hover {
+  cursor: pointer;
+}
+
+.navimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.navimg:hover {
+  cursor: pointer;
+}
+.icon {
+  color: #26558f;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.navitem:hover {
+  text-decoration: none;
+  color: #ffa900;
+  cursor: pointer;
+}
+.search {
+  position: relative;
+  width: 120%;
+}
+.search input {
+  background-color: rgba(243, 243, 243, 0.685);
+  font-size: 12px;
+  border: 1px solid rgba(172, 172, 172, 0.986);
+}
+.searchicon {
+  position: absolute;
+  top: 30%;
+  right: 4%;
+}
+.w-35 {
+  width: 35%;
+}
+.card {
+  width: 150px;
+  height: 200px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(74, 112, 163, 1) 2%,
+    rgba(20, 63, 116, 1) 100%
+  );
+}
+.logo {
+  width: 100px;
+  height: 120px;
+}
+.card:hover {
+  cursor: pointer;
+  background: rgb(35, 60, 96);
+  background: radial-gradient(
+    circle,
+    rgba(35, 60, 96, 1) 0%,
+    rgba(35, 60, 96, 1) 100%
+  );
+}
+.up-events-title {
+  color: #26558f;
+}
+.downicon {
+  font-size: 12px;
+}
+.vsmall {
+  background-color: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  font-size: 7px;
+  color: white;
+  position: absolute;
+  top: 10%;
+  right: -10%;
+}
+.bell {
+  position: relative;
+}
+.hover:hover {
+  background-color: #ececec;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.lcsicon {
+  font-size: 16x;
+}
+.absolute {
+  position: absolute;
+  top: -50px;
+  left: 0%;
+  height: 35px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  visibility: hidden;
+}
+.emoji {
+  padding: 5px;
+  font-size: 25px;
+  margin: 0;
+}
+.emoji:hover {
+  transform: translateY(-30%) scale(1.25) rotate(-15deg);
+  cursor: pointer;
+}
+
+@keyframes popup {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* --------------------------------------------------------- */
+
+.Walloffame {
+  margin: 60px 0 120px 0;
+}
+.annocementsheading {
+  text-align: center;
+  /* font-family: 'Raleway', sans-serif; */
+  font: normal normal 500 31px/36px 'Raleway', sans-serif;
+  color: #2c61a4;
+}
+.annocementsheading:hover {
+  cursor: pointer;
+}
+
+.board {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  border-radius: 5px;
+  width: 80vw;
+  margin: auto;
+}
+.details img {
+  width: 80%;
+}
+.details p {
+  font: normal normal 600 24px/29px 'Raleway', sans-serif;
+  color: #2c61a4;
+}
+.name {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.Awardtitle {
+  text-align: left;
+  font: normal normal bold 37px/44px 'Raleway', sans-serif;
+  color: #ff8b17;
+}
+.AwardDes {
+  text-align: left;
+  font: normal normal normal 14px/20px 'Raleway', sans-serif;
+  color: #242424;
+}
+.leftright {
+  width: 40px;
+  height: 40px;
+}
+.view_all {
+  font: normal normal medium 18px/21px 'Raleway', sans-serif;
+  color: #2c61a4;
+  text-align: right;
+  padding: 0 30px;
+}
+.cat_type {
+  font: normal normal bold 16px/19px 'Raleway', sans-serif;
+  color: black;
+}
+.cat_type:hover {
+  color: #2c61a4;
+  border-bottom: 5px solid #ff8b17;
+  text-decoration: none;
+  cursor: pointer;
+}
+.active {
+  color: #2c61a4;
+  border-bottom: 5px solid #ff8b17;
+}
+.board {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  font: normal normal bold 17px/20px 'Raleway', sans-serif;
+  top: 0;
+  left: 10%;
+  padding: 8px;
+  background-color: #35a0d9;
+  color: white;
+  border-radius: 0;
+}
+.eventdetails {
+  width: 180px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+}
+.event-p-name {
+  font: normal normal normal 10px/11px 'Raleway', sans-serif;
+  color: #2c61a4;
+}
+.event-p-des {
+  font: normal normal normal 10px/11px 'Raleway', sans-serif;
+}
+/* .eventdetails p{
+  font: normal normal normal 10px/11px 'Raleway', sans-serif;
+} */
+
+.eventicon {
+  font-size: 12px;
+}
+.eventimg {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.bellicon {
+  width: 24px;
+}
+.ticketbar button {
+  background-color: #f85e19;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+.tickettype {
+  background-color: #578ab5;
+}
+.tickettype label {
+  white-space: nowrap;
+}
+tr img {
+  width: 25px;
+  height: 25px;
+}
+.head {
+  background-color: #606060;
+  border-radius: 5px;
+}
+td {
+  font-size: 11px;
+  white-space: nowrap;
+}
+th {
+  font-size: 12px;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+}
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+  background-color: #edf2f6;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #ffffff;
+}
+.pagination i,
+.pagination p {
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.pagination select {
+  height: 15px;
+  font-size: 9px;
+}
+
+thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+thead tr:first-child th:first-child {
+  border-bottom-left-radius: 10px;
+}
+thead tr:first-child th:last-child {
+  border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,24 @@
+.buttons button {
+  display: flex;
+  border: none;
+  font-size: 12px;
+}
+
+.buttons button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.feedinput input {
+  border: none;
+  font-size: 12px;
+}
+.feedinput input:focus {
+  outline: 0;
+  font-size: 12px;
+}
+.feedinput img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_18" data-name="Group 18" transform="translate(-1799 -796)">
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="10" cy="10" r="10" transform="translate(1799 796)" fill="#2c61a4"/>
+    <g id="icon_navigation_chevron_right_24px" data-name="icon/navigation/chevron_right_24px" transform="translate(1800.333 796.667)">
+      <rect id="Boundary" width="18.667" height="18.667" fill="none"/>
+      <path id="_Color" data-name=" ↳Color" d="M1.1,0,0,1.1l3.557,3.57L0,8.237l1.1,1.1,4.66-4.667Z" transform="translate(6.689 4.667)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

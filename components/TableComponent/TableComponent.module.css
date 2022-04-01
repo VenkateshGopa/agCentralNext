@@ -1,0 +1,61 @@
+.orange {
+  background-color: #f85e19;
+}
+.blue {
+  color: #2c61a4;
+}
+.backgroundblue {
+  background-color: #578ab5;
+}
+.backgroundblue label {
+  font-size: 13px;
+}
+.thead tr {
+  background-color: #606060;
+  font-size: 11px;
+}
+.table > tbody > tr {
+  font-size: 12px;
+  padding-left: 2px;
+}
+.table > tbody > tr > td > img {
+  width: 25px;
+  height: 25px;
+}
+.table > tbody > tr:nth-child(even) > td,
+.table > tbody > tr:nth-child(even) > th {
+  background-color: #edf2f6;
+}
+.table > tbody > tr > td {
+  padding: 10px;
+}
+.table > tbody > tr > td:last-child {
+  padding-right: 4px;
+}
+.table > tbody > tr:nth-child(odd) > td,
+.table > tbody > tr:nth-child(odd) > th {
+  background-color: #ffffff;
+}
+
+.thead tr:first-child th:first-child {
+  border-top-left-radius: 5px;
+}
+.thead tr:first-child th:last-child {
+  border-top-right-radius: 5px;
+}
+.thead tr:first-child th:first-child {
+  border-bottom-left-radius: 5px;
+}
+.thead tr:first-child th:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+.pagination i,
+.pagination p {
+  font-size: 9px;
+}
+
+.pagination select {
+  height: 15px;
+  font-size: 9px;
+}

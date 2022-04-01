@@ -1,0 +1,16 @@
+.blue {
+  color: #2c61a4;
+}
+.backgroundbrown {
+  background-color: #726c6c;
+}
+.img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+@media screen and (min-width: 1200px) {
+  .img {
+    height: 120px;
+  }
+}

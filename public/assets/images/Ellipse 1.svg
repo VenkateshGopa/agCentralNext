@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.807" y1="0.17" x2="0.146" y2="0.832" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#952e9f"/>
+      <stop offset="1" stop-color="#f25f44"/>
+    </linearGradient>
+  </defs>
+  <g id="Ellipse_1" data-name="Ellipse 1" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)">
+    <circle cx="33" cy="33" r="33" stroke="none"/>
+    <circle cx="33" cy="33" r="32.5" fill="none"/>
+  </g>
+</svg>
