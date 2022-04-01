@@ -4,7 +4,7 @@ import classes from './Navbar.module.css'
 const Navbar = () => {
   const Router = useRouter()
 
-  const routes = ['Bu', 'PolicyDocuments', 'CurrentOpenings', 'Who’sMAD']
+  const routes = ['Bu', 'Policy Documents', 'Current Openings', 'Who’s MAD']
   const classname = (path: string) => {
     return Router.pathname.toLowerCase() == path ||
       Router.pathname.indexOf(path.replace('/', '')) > 0
@@ -23,8 +23,10 @@ const Navbar = () => {
         {routes.map((ele) => (
           <p
             key={ele}
-            className={classname(`/${ele.toLowerCase()}`)}
-            onClick={() => Router.push(`/${ele.toLocaleLowerCase()}`)}
+            className={classname(`/${ele.replace(' ', '').toLowerCase()}`)}
+            onClick={() =>
+              Router.push(`/${ele.replace(' ', '').toLocaleLowerCase()}`)
+            }
           >
             {ele}
           </p>
